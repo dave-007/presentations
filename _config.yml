@@ -1,0 +1,12 @@
+title: Presentations
+description: Source files from past and upcoming presentations (2011-2025)
+
+# GitHub Pages will build this repo with Jekyll. You can switch themes by
+# changing this value to any supported theme (see README for options).
+theme: jekyll-theme-cayman
+
+# Custom domain (GitHub Pages)
+url: "https://presentations.davidcobb.net"
+baseurl: ""
+
+
