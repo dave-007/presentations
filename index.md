@@ -12,7 +12,7 @@ Repository for source files in my past and upcoming presentations.
 ## By Topic
 
 ### AI & Machine Learning
-- [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://aiworkshop.info/) `ai` `machine-learning` `education`
+- [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://devaibootcamp.com/) `ai` `machine-learning` `education`
 - [[2025-03] INTENTIONAL AI - Co-Creating the Future We Want (InfoBip, Miami)](https://github.com/dave-007/intentional-ai-co-creating-the-future-we-want) `ai` `ethics` `future`
 
 ### Containers & Kubernetes
@@ -175,7 +175,7 @@ Sharing discoveries about technology levers, filters, forcing factors, and what 
 
 External presentation on teaching and learning Azure cloud technologies in 2024.
 
-#### [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://aiworkshop.info/)
+#### [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://devaibootcamp.com/)
 **Tags:** `ai` `machine-learning` `education` `bootcamp`
 
 External AI bootcamp workshop materials and resources.
