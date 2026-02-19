@@ -1,0 +1,351 @@
+---
+layout: default
+title: David Cobb — Past & Upcoming Presentations (Beta)
+---
+
+<style>
+  .tab-container {
+    margin-top: 1rem;
+  }
+  .tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border-bottom: 2px solid #e1e4e8;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .tab-nav li {
+    margin: 0;
+    padding: 0;
+  }
+  .tab-nav button {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #586069;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .tab-nav button:hover {
+    color: #24292e;
+    border-bottom-color: #d1d5da;
+  }
+  .tab-nav button.active {
+    color: #24292e;
+    border-bottom-color: #0366d6;
+    font-weight: 600;
+  }
+  .tab-panel {
+    display: none;
+    padding: 1.5rem 0;
+  }
+  .tab-panel.active {
+    display: block;
+  }
+  .quick-stats {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    color: #586069;
+  }
+  .tab-panel h3 {
+    margin-top: 1.5rem;
+  }
+  .tab-panel h3:first-child {
+    margin-top: 0;
+  }
+  .tab-panel h4 {
+    margin-top: 1.2rem;
+  }
+  .tag-badge {
+    display: inline-block;
+    background: #f1f8ff;
+    color: #0366d6;
+    border-radius: 3px;
+    padding: 0.1em 0.4em;
+    font-size: 0.85em;
+    font-family: monospace;
+  }
+</style>
+
+<p class="quick-stats"><strong>Quick Stats:</strong> 17 presentations | 2011–2025 | Topics: SQL Server, PowerShell, Cloud Technologies, AI/ML, DevOps</p>
+
+<div class="tab-container">
+  <ul class="tab-nav" role="tablist">
+    <li><button role="tab" aria-selected="true" aria-controls="panel-topic" class="active" data-tab="panel-topic">By Topic</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="panel-year" data-tab="panel-year">By Year</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="panel-chrono" data-tab="panel-chrono">Chronological</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="panel-tags" data-tab="panel-tags">Tags</button></li>
+    <li><button role="tab" aria-selected="false" aria-controls="panel-about" data-tab="panel-about">About</button></li>
+  </ul>
+
+  <!-- BY TOPIC -->
+  <div id="panel-topic" class="tab-panel active" role="tabpanel">
+    <h3>AI &amp; Machine Learning</h3>
+    <ul>
+      <li><a href="https://devaibootcamp.com/">[2024-03] Global AI Bootcamp 2024 (Broward College)</a> — <a href="https://github.com/Alongside-cc/sofla-ai-workshop-intro/blob/main/slides/Slides.md">Slides</a> <code>ai</code> <code>machine-learning</code> <code>education</code></li>
+      <li><a href="https://github.com/dave-007/intentional-ai-co-creating-the-future-we-want">[2025-03] INTENTIONAL AI - Co-Creating the Future We Want (InfoBip, Miami)</a> <code>ai</code> <code>ethics</code> <code>future</code></li>
+    </ul>
+
+    <h3>DevOps</h3>
+    <ul>
+      <li><a href="https://github.com/dave-007/CONNECTIONS-PRESENTATION/blob/master/instructions.md">[2024-06] Azure DevOps Connections Presentation Exercise</a> <code>devops</code> <code>azure-devops</code> <code>exercise</code></li>
+    </ul>
+
+    <h3>Containers &amp; Kubernetes</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2018/2018-02-10%20-%20South%20Florida%20CodeCamp%20-%20Windows%20Containers%20on%20ACS%20Kubernetes/">[2018-02-10] Windows Containers on ACS Kubernetes (South Florida CodeCamp)</a> <code>kubernetes</code> <code>containers</code> <code>azure</code> <code>windows</code></li>
+    </ul>
+
+    <h3>Cloud - AWS</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2019/2019-03-02%20-%20South%20Florida%20CodeCamp%20-%20Take%20Command%20of%20AWS%20Command%20Line/">[2019-03-02] Take Command of AWS Command Line (South Florida CodeCamp)</a> <code>aws</code> <code>cloud</code> <code>cli</code> <code>automation</code></li>
+    </ul>
+
+    <h3>Cloud - Azure</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2020/2020-01-09%20-%20Take%20Command%20of%20Azure%20PowerShell%20PowerShell%207/">[2020-01-09] Take Command of Azure PowerShell PowerShell 7 (MCSFUG)</a> <code>azure</code> <code>powershell</code> <code>cloud</code> <code>beginner</code></li>
+      <li><a href="https://github.com/dave-007/UG-Talk-Azure-Cloud-Journey-Of-The-DBA">[2020-09] Azure Cloud Journey of the DBA (Data, Analytics &amp; AI Club)</a> <code>azure</code> <code>cloud</code> <code>dba</code> <code>migration</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2022/2022-11-18%20-%20GLUG%20-%20Advantages%20of%20Being%20an%20Azure%20Cloud%20Generalist/">[2022-11-18] Advantages of Being an Azure Cloud Generalist (Greater Lansing User Group)</a> <code>azure</code> <code>cloud</code> <code>career</code> <code>learning</code></li>
+      <li><a href="https://dave-007.github.io/Teach-To-Learn-Azure-In-2024/">[2024-01] Teach to Learn Azure in 2024 (Cloudskills.io)</a> <code>azure</code> <code>cloud</code> <code>learning</code> <code>education</code></li>
+    </ul>
+
+    <h3>SQL + PowerShell</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2016/2016-02-20%20-%20South%20Florida%20Code%20Camp%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-02-20] SQL and PowerShell, an Introduction (South Florida Code Camp)</a> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2016/2016-03-29%20-%20HP%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-03-29] SQL and PowerShell, an Introduction (HP)</a> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2016/2016-04-07%20-%20LearnNowOnline%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-04-07] SQL and PowerShell, an Introduction (LearnNowOnline)</a> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2016/2016-09-27%20-%20PASS%20Virtual%20Chapter%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-09-27] SQL and PowerShell, an Introduction (PASS Virtual Chapter)</a> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2017/2017-08-19%20-%20South%20Florida%20SQL%20Server%20User%20Group%20-%20SQL%20and%20PowerShell%20Tools/">[2017-08-19] SQL and PowerShell Tools (South Florida SQL Server User Group)</a> <code>sql-server</code> <code>powershell</code> <code>tools</code> <code>modules</code></li>
+    </ul>
+
+    <h3>PowerShell</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2012/2012-09-19%20-%20South%20Florida%20SQL%20Server%20User%20Group%20-%20PowerShell%20for%20the%20Bleeding%20Edge%20DBA/">[2012-09-19] PowerShell for the Bleeding Edge DBA (South Florida SQL Server User Group)</a> <code>powershell</code> <code>sql-server</code> <code>dba</code> <code>automation</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2013/2013-02-19%20-%20Florida%20PowerShell%20User%20Group%20-%20My%20First%20PowerShell%20Script/">[2013-02-19] My First PowerShell Script (Florida PowerShell User Group)</a> <code>powershell</code> <code>beginner</code> <code>scripting</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2014/2014-09-01%20-%20FlaDotNet%20User%20Group%20-%20Don't%20Fear%20the%20Shell/">[2014-09-01] Don't Fear the Shell (FlaDotNet User Group)</a> <code>powershell</code> <code>beginner</code> <code>hands-on</code></li>
+    </ul>
+
+    <h3>SQL Server</h3>
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2011/2011-07-01%20-%20South%20Florida%20SQL%20Saturday%20-%20DIY%20Hyper-V%20Clustering%20and%20SQL%20Server/">[2011-07-01] DIY Hyper-V Clustering and SQL Server (South Florida SQL Saturday)</a> <code>sql-server</code> <code>virtualization</code> <code>clustering</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2012/2012-08-29%20-%20Homnick%20Systems%20-%20Replication%20Troubleshooting%20Custom%20Class/">[2012-08-29] Replication Troubleshooting Custom Class (Homnick Systems)</a> <code>sql-server</code> <code>replication</code> <code>troubleshooting</code></li>
+      <li><a href="{{ site.baseurl }}/presentations/2015/2015-06-12%20-%20South%20Florida%20SQL%20Saturday%20-%20Rolling%20Darabase%20Snapshots/">[2015-06-12] Rolling Database Snapshots (South Florida SQL Saturday)</a> <code>sql-server</code> <code>database-snapshots</code> <code>automation</code></li>
+    </ul>
+  </div>
+
+  <!-- BY YEAR -->
+  <div id="panel-year" class="tab-panel" role="tabpanel">
+    <ul>
+      <li><a href="{{ site.baseurl }}/presentations/2011/">2011</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2012/">2012</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2013/">2013</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2014/">2014</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2015/">2015</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2016/">2016</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2017/">2017</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2018/">2018</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2019/">2019</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2020/">2020</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2022/">2022</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2024/">2024</a></li>
+      <li><a href="{{ site.baseurl }}/presentations/2025/">2025</a></li>
+    </ul>
+  </div>
+
+  <!-- CHRONOLOGICAL -->
+  <div id="panel-chrono" class="tab-panel" role="tabpanel">
+    <h3>2011</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2011/2011-07-01%20-%20South%20Florida%20SQL%20Saturday%20-%20DIY%20Hyper-V%20Clustering%20and%20SQL%20Server/">[2011-07-01] DIY Hyper-V Clustering and SQL Server (South Florida SQL Saturday)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>virtualization</code> <code>clustering</code> <code>hyper-v</code></p>
+    <p>Presentation materials from SQL Saturday covering how to set up and configure Hyper-V clustering for SQL Server, including network configuration for active-active clusters.</p>
+
+    <h3>2012</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2012/2012-08-29%20-%20Homnick%20Systems%20-%20Replication%20Troubleshooting%20Custom%20Class/">[2012-08-29] Replication Troubleshooting Custom Class (Homnick Systems)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>replication</code> <code>troubleshooting</code></p>
+    <p>Custom class materials focused on troubleshooting SQL Server replication issues, including resources for students and detailed technical documentation.</p>
+
+    <h4><a href="{{ site.baseurl }}/presentations/2012/2012-09-19%20-%20South%20Florida%20SQL%20Server%20User%20Group%20-%20PowerShell%20for%20the%20Bleeding%20Edge%20DBA/">[2012-09-19] PowerShell for the Bleeding Edge DBA (South Florida SQL Server User Group)</a></h4>
+    <p><strong>Tags:</strong> <code>powershell</code> <code>sql-server</code> <code>dba</code> <code>automation</code></p>
+    <p>Introduction to using PowerShell with SQL Server 2012, covering SQLPS cmdlets, syntax enhancements, and practical scripts for database administration tasks including backups, restores, error log reading, and server management.</p>
+
+    <h3>2013</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2013/2013-02-19%20-%20Florida%20PowerShell%20User%20Group%20-%20My%20First%20PowerShell%20Script/">[2013-02-19] My First PowerShell Script (Florida PowerShell User Group)</a></h4>
+    <p><strong>Tags:</strong> <code>powershell</code> <code>beginner</code> <code>scripting</code></p>
+    <p>Beginner-friendly presentation introducing PowerShell scripting fundamentals, including slide decks and demo scripts for initializing SQL PowerShell environments and database restore operations.</p>
+
+    <h3>2014</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2014/2014-09-01%20-%20FlaDotNet%20User%20Group%20-%20Don't%20Fear%20the%20Shell/">[2014-09-01] Don't Fear the Shell (FlaDotNet User Group)</a></h4>
+    <p><strong>Tags:</strong> <code>powershell</code> <code>beginner</code> <code>hands-on</code></p>
+    <p>Interactive, hands-on introduction to PowerShell for .NET developers with no slides - just code. Covers PowerShell basics, variables, core commands, providers, common cmdlets, filtering, and WMI/CIM.</p>
+
+    <h3>2015</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2015/2015-06-12%20-%20South%20Florida%20SQL%20Saturday%20-%20Rolling%20Darabase%20Snapshots/">[2015-06-12] Rolling Database Snapshots (South Florida SQL Saturday)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>database-snapshots</code> <code>automation</code> <code>mirroring</code></p>
+    <p>Complete solution for creating and managing rolling database snapshots on mirrored databases, including stored procedures, SQL jobs, and PowerShell scripts for automation. Includes concept diagrams and demo scripts.</p>
+
+    <h3>2016</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2016/2016-02-20%20-%20South%20Florida%20Code%20Camp%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-02-20] SQL and PowerShell, an Introduction (South Florida Code Camp)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></p>
+    <p>By adding PowerShell to our toolset when working with data, DBAs and developers can go beyond Management Studio and T-SQL, applying a powerful scripting language that leverages .NET objects and Windows server capabilities to simplify management, automate processes, and manipulate data.</p>
+
+    <h4><a href="{{ site.baseurl }}/presentations/2016/2016-03-29%20-%20HP%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-03-29] SQL and PowerShell, an Introduction (HP)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></p>
+    <p>Same core content as Code Camp presentation, delivered to HP on behalf of LearnNowOnline. Covers PowerShell basics for SQL professionals, SMO usage, and community resources.</p>
+
+    <h4><a href="{{ site.baseurl }}/presentations/2016/2016-04-07%20-%20LearnNowOnline%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-04-07] SQL and PowerShell, an Introduction (LearnNowOnline)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code></p>
+    <p>Online learning version of the SQL and PowerShell introduction, including additional SQL treemap visualization script.</p>
+
+    <h4><a href="{{ site.baseurl }}/presentations/2016/2016-09-27%20-%20PASS%20Virtual%20Chapter%20-%20SQL%20and%20PowerShell,%20an%20Introduction/">[2016-09-27] SQL and PowerShell, an Introduction (PASS Virtual Chapter)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>powershell</code> <code>beginner</code> <code>smo</code> <code>dba-tools</code></p>
+    <p>Virtual presentation to PASS Virtual Chapter, includes DBATools coverage in addition to core SQL and PowerShell content.</p>
+
+    <h3>2017</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2017/2017-08-19%20-%20South%20Florida%20SQL%20Server%20User%20Group%20-%20SQL%20and%20PowerShell%20Tools/">[2017-08-19] SQL and PowerShell Tools (South Florida SQL Server User Group)</a></h4>
+    <p><strong>Tags:</strong> <code>sql-server</code> <code>powershell</code> <code>tools</code> <code>modules</code></p>
+    <p>Exploration of the current state of PowerShell tools for SQL Server, comparing SQLPS and the new SQLServer module, PowerShell Gallery, and community tools like DBATools. Covers PowerShell 5.1 and SSMS 2016.</p>
+
+    <h3>2018</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2018/2018-02-10%20-%20South%20Florida%20CodeCamp%20-%20Windows%20Containers%20on%20ACS%20Kubernetes/">[2018-02-10] Windows Containers on ACS Kubernetes (South Florida CodeCamp)</a></h4>
+    <p><strong>Tags:</strong> <code>kubernetes</code> <code>containers</code> <code>azure</code> <code>windows</code></p>
+    <p>Walkthrough of standing up Azure Container Services (ACS) with Kubernetes orchestrator and Windows containers. Includes PowerShell scripts for cluster setup, container deployment, and useful references.</p>
+
+    <h3>2019</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2019/2019-03-02%20-%20South%20Florida%20CodeCamp%20-%20Take%20Command%20of%20AWS%20Command%20Line/">[2019-03-02] Take Command of AWS Command Line (South Florida CodeCamp)</a></h4>
+    <p><strong>Tags:</strong> <code>aws</code> <code>cloud</code> <code>cli</code> <code>automation</code> <code>jmespath</code></p>
+    <p>Introduction to AWS CLI with focus on command syntax, JMESPath queries, and practical examples for managing AWS resources from the command line. Includes reference materials and learning resources.</p>
+
+    <h3>2020</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2020/2020-01-09%20-%20Take%20Command%20of%20Azure%20PowerShell%20PowerShell%207/">[2020-01-09] Take Command of Azure PowerShell PowerShell 7 (MCSFUG)</a></h4>
+    <p><strong>Tags:</strong> <code>azure</code> <code>powershell</code> <code>cloud</code> <code>beginner</code></p>
+    <p>Beginner-level session on using PowerShell 7 with Azure. Covers first login, command syntax discovery, common features and shortcuts, and how command line increases understanding and confidence in building in the cloud. Code-intensive tutorial designed for hands-on learning.</p>
+
+    <h4><a href="https://github.com/dave-007/UG-Talk-Azure-Cloud-Journey-Of-The-DBA">[2020-09] Azure Cloud Journey of the DBA (Data, Analytics &amp; AI Club)</a></h4>
+    <p><strong>Tags:</strong> <code>azure</code> <code>cloud</code> <code>dba</code> <code>migration</code> <code>career</code></p>
+    <p>Presentation covering the journey of database administrators transitioning to Azure cloud technologies.</p>
+
+    <h3>2022</h3>
+    <h4><a href="{{ site.baseurl }}/presentations/2022/2022-11-18%20-%20GLUG%20-%20Advantages%20of%20Being%20an%20Azure%20Cloud%20Generalist/">[2022-11-18] Advantages of Being an Azure Cloud Generalist (Greater Lansing User Group)</a></h4>
+    <p><strong>Tags:</strong> <code>azure</code> <code>cloud</code> <code>career</code> <code>learning</code> <code>generalist</code></p>
+    <p>Sharing discoveries about technology levers, filters, forcing factors, and what it really means to be a 'cloud expert'. Mastering these concepts helps improve confidence and skills in the cloud. Includes video recording and slide deck.</p>
+
+    <h3>2024</h3>
+    <h4><a href="https://dave-007.github.io/Teach-To-Learn-Azure-In-2024/">[2024-01] Teach to Learn Azure in 2024 (Cloudskills.io)</a></h4>
+    <p><strong>Tags:</strong> <code>azure</code> <code>cloud</code> <code>learning</code> <code>education</code> <code>teaching</code></p>
+    <p>External presentation on teaching and learning Azure cloud technologies in 2024.</p>
+
+    <h4><a href="https://devaibootcamp.com/">[2024-03] Global AI Bootcamp 2024 (Broward College)</a> — <a href="https://github.com/Alongside-cc/sofla-ai-workshop-intro/blob/main/slides/Slides.md">Slides</a></h4>
+    <p><strong>Tags:</strong> <code>ai</code> <code>machine-learning</code> <code>education</code> <code>bootcamp</code></p>
+    <p>Hands-on AI workshop at NSU Davie, FL featuring an OpenAI workshop, lightning talks on AI projects, and an AI video workshop. Organized with South Florida Data Geeks, Florida JS, Florida Dotnet, and other local meetups.</p>
+
+    <h4><a href="https://github.com/dave-007/CONNECTIONS-PRESENTATION/blob/master/instructions.md">[2024-06] Azure DevOps Connections Presentation Exercise</a></h4>
+    <p><strong>Tags:</strong> <code>devops</code> <code>azure-devops</code> <code>exercise</code></p>
+    <p>Interview exercise for an Azure DevOps gig, repurposed as a DevOps presentation exercise.</p>
+
+    <h3>2025</h3>
+    <h4><a href="https://github.com/dave-007/intentional-ai-co-creating-the-future-we-want">[2025-03] INTENTIONAL AI - Co-Creating the Future We Want (InfoBip, Miami)</a></h4>
+    <p><strong>Tags:</strong> <code>ai</code> <code>ethics</code> <code>future</code> <code>intentional-design</code></p>
+    <p>External presentation on intentional AI design and co-creating the future we want through thoughtful AI development.</p>
+  </div>
+
+  <!-- TAGS -->
+  <div id="panel-tags" class="tab-panel" role="tabpanel">
+    <ul>
+      <li><code>ai</code> — Artificial Intelligence and Machine Learning topics</li>
+      <li><code>automation</code> — Scripting and automation solutions</li>
+      <li><code>aws</code> — Amazon Web Services cloud platform</li>
+      <li><code>azure</code> — Microsoft Azure cloud platform</li>
+      <li><code>azure-devops</code> — Azure DevOps platform</li>
+      <li><code>beginner</code> — Entry-level content suitable for beginners</li>
+      <li><code>career</code> — Career development and professional growth</li>
+      <li><code>cli</code> — Command Line Interface tools</li>
+      <li><code>cloud</code> — Cloud computing platforms and services</li>
+      <li><code>clustering</code> — High availability and clustering solutions</li>
+      <li><code>containers</code> — Container technologies</li>
+      <li><code>database-snapshots</code> — SQL Server snapshot technology</li>
+      <li><code>dba</code> — Database Administrator focused content</li>
+      <li><code>devops</code> — DevOps practices and tools</li>
+      <li><code>education</code> — Teaching and learning resources</li>
+      <li><code>ethics</code> — Ethical considerations in technology</li>
+      <li><code>future</code> — Future-looking technology discussions</li>
+      <li><code>generalist</code> — Generalist vs specialist approaches</li>
+      <li><code>hands-on</code> — Interactive, code-focused sessions</li>
+      <li><code>hyper-v</code> — Microsoft Hyper-V virtualization</li>
+      <li><code>jmespath</code> — JMESPath query language</li>
+      <li><code>kubernetes</code> — Kubernetes orchestration</li>
+      <li><code>learning</code> — Learning methodologies and resources</li>
+      <li><code>migration</code> — Technology migration topics</li>
+      <li><code>mirroring</code> — Database mirroring technology</li>
+      <li><code>modules</code> — PowerShell modules and packages</li>
+      <li><code>powershell</code> — PowerShell scripting language</li>
+      <li><code>replication</code> — SQL Server replication</li>
+      <li><code>scripting</code> — Scripting languages and techniques</li>
+      <li><code>smo</code> — SQL Server Management Objects</li>
+      <li><code>sql-server</code> — Microsoft SQL Server database platform</li>
+      <li><code>tools</code> — Development and administration tools</li>
+      <li><code>troubleshooting</code> — Problem-solving and debugging</li>
+      <li><code>virtualization</code> — Virtualization technologies</li>
+      <li><code>windows</code> — Windows-specific technologies</li>
+    </ul>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="panel-about" class="tab-panel" role="tabpanel">
+    <p>This repository contains presentation materials, slides, scripts, and code samples from presentations delivered from 2011 to 2025. Topics have evolved from SQL Server administration and PowerShell scripting to cloud technologies and AI.</p>
+    <p>All materials are provided as-is for educational purposes. Feel free to fork, clone, and adapt the code for your own use.</p>
+    <h3>GitHub</h3>
+    <ul>
+      <li>Source repository: <a href="https://github.com/dave-007/presentations">dave-007/presentations</a></li>
+    </ul>
+    <p><em>This is a beta preview of the tabbed navigation. <a href="{{ site.baseurl }}/">Return to main site</a>.</em></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.tab-nav button');
+  var panels = document.querySelectorAll('.tab-panel');
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      // Deactivate all
+      buttons.forEach(function (b) {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      panels.forEach(function (p) {
+        p.classList.remove('active');
+      });
+
+      // Activate clicked
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      var target = document.getElementById(btn.getAttribute('data-tab'));
+      if (target) {
+        target.classList.add('active');
+      }
+    });
+  });
+
+  // Support linking to specific tabs via hash
+  function activateTabFromHash() {
+    var hash = window.location.hash.replace('#', '');
+    if (hash) {
+      var tabBtn = document.querySelector('.tab-nav button[data-tab="panel-' + hash + '"]');
+      if (tabBtn) {
+        tabBtn.click();
+      }
+    }
+  }
+
+  activateTabFromHash();
+  window.addEventListener('hashchange', activateTabFromHash);
+})();
+</script>
