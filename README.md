@@ -2,14 +2,14 @@
 
 Repository for source files in my past and upcoming presentations.
 
-**Quick Stats:** 15 presentations | 2011-2025 | Topics: SQL Server, PowerShell, Cloud Technologies, AI/ML
+**Quick Stats:** 17 presentations | 2011-2025 | Topics: SQL Server, PowerShell, Cloud Technologies, AI/ML, DevOps
 
 ---
 
 ## By Topic
 
 ### AI & Machine Learning
-- [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://devaibootcamp.com/) `ai` `machine-learning` `education`
+- [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://devaibootcamp.com/) — [Slides](https://github.com/Alongside-cc/sofla-ai-workshop-intro/blob/main/slides/Slides.md) `ai` `machine-learning` `education`
 - [[2025-03] INTENTIONAL AI - Co-Creating the Future We Want (InfoBip, Miami)](https://github.com/dave-007/intentional-ai-co-creating-the-future-we-want) `ai` `ethics` `future`
 
 ### Containers & Kubernetes
@@ -17,6 +17,9 @@ Repository for source files in my past and upcoming presentations.
 
 ### Cloud - AWS
 - [[2019-03-02] Take Command of AWS Command Line (South Florida CodeCamp)](./presentations/2019/2019-03-02%20-%20South%20Florida%20CodeCamp%20-%20Take%20Command%20of%20AWS%20Command%20Line/) `aws` `cloud` `cli` `automation`
+
+### DevOps
+- [[2024-06] Azure DevOps Connections Presentation Exercise](https://github.com/dave-007/CONNECTIONS-PRESENTATION/blob/master/instructions.md) `devops` `azure-devops` `exercise`
 
 ### Cloud - Azure
 - [[2020-01-09] Take Command of Azure PowerShell PowerShell 7 (MCSFUG)](./presentations/2020/2020-01-09%20-%20Take%20Command%20of%20Azure%20PowerShell%20PowerShell%207/) `azure` `powershell` `cloud` `beginner`
@@ -172,10 +175,15 @@ Sharing discoveries about technology levers, filters, forcing factors, and what 
 
 External presentation on teaching and learning Azure cloud technologies in 2024.
 
-#### [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://devaibootcamp.com/)
+#### [[2024-03] Global AI Bootcamp 2024 (Broward College)](https://devaibootcamp.com/) — [Slides](https://github.com/Alongside-cc/sofla-ai-workshop-intro/blob/main/slides/Slides.md)
 **Tags:** `ai` `machine-learning` `education` `bootcamp`
 
-External AI bootcamp workshop materials and resources.
+Hands-on AI workshop at NSU Davie, FL featuring an OpenAI workshop, lightning talks on AI projects, and an AI video workshop. Organized with South Florida Data Geeks, Florida JS, Florida Dotnet, and other local meetups.
+
+#### [[2024-06] Azure DevOps Connections Presentation Exercise](https://github.com/dave-007/CONNECTIONS-PRESENTATION/blob/master/instructions.md)
+**Tags:** `devops` `azure-devops` `exercise`
+
+Interview exercise for an Azure DevOps gig, repurposed as a DevOps presentation exercise.
 
 ### 2025
 
@@ -200,6 +208,8 @@ External presentation on intentional AI design and co-creating the future we wan
 - `containers` - Container technologies
 - `dba` - Database Administrator focused content
 - `database-snapshots` - SQL Server snapshot technology
+- `devops` - DevOps practices and tools
+- `azure-devops` - Azure DevOps platform
 - `education` - Teaching and learning resources
 - `ethics` - Ethical considerations in technology
 - `future` - Future-looking technology discussions
